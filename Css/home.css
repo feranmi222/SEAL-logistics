@@ -1,0 +1,197 @@
+main{
+   overflow: hidden; 
+}
+.sealintro {
+    height: 80vh;
+    padding: 25px;
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-size: contain;
+    
+}
+.sealintro h2{ 
+    width: 55%;
+    padding: 20px;
+    text-shadow: 0px 3px 1px #000;
+    background-color: rgba(36, 36, 36, 0.5);
+    margin: auto;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+.sealintro h4{
+    display:inline-block;
+    margin-top:40px;
+    background-color:rgb(79, 79, 255);
+    padding:15px;
+    color: #fff;
+    border-radius: 5px;
+    font-size:35px;
+    font-weight: 700;
+}
+.sealintro span{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    color: #000;
+    background-color:rgb(250, 104, 51);
+    border-radius: 10px;
+    font-weight: 700;
+}
+.sealintro p{
+    margin-top: 25px;
+    font-size: 30px; 
+    font-weight: 600;
+    color:black;
+}
+.b7{
+    margin-top: 45px;
+    margin-bottom:50px ;
+}
+.b2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: rgb(250, 25, 9);
+    border-radius: 10px;
+    outline: 0;border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.b2:hover{
+    background-color:rgb(255, 238, 0);
+    color: #fff;
+}
+.b3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: white;
+    border-radius: 10px;
+    outline: 0;border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    border: 1px solid rgba(255, 0, 0, 0.247);
+    text-decoration: none;
+}
+.b3:hover{
+    border-color: red;
+    color: red;
+}
+.illustration {
+    padding: 15px;
+    margin-top: 250px;
+    border-top: 1px solid rgba(255, 0, 0, 0.322);
+    border-bottom: 1px solid rgba(255, 0, 0, 0.322);
+    
+}
+.values{
+    height: 110vh;
+    padding: 25px;
+    background-image: url(../images/4.jpg);
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+@media (max-width: 768px) {
+    .sealintro{
+        height: 40vh;
+        background-repeat: no-repeat;
+    }
+    .sealintro h2{
+       width: 100%; 
+       font-size: 2rem;
+    }
+    .sealintro p{
+        font-size: 15px;
+    }
+    .b7{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .b2{
+        padding: 10px 10px 12px 10px;
+    }
+    .b3{
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+    .illustration{
+        margin-top: 270px;
+    }
+    .col-sm-3, .col-sm-6 {
+        width: 100%!important;
+        padding: 0 15px !important;
+    }
+    .illustration img{
+        width: 80%;
+        padding: 5px;
+    }
+    .illustration .col-sm-3{
+        width: 25% !important;
+        text-align: center!important;
+        margin: auto!important;
+        padding:2px !important ;
+        
+    }
+    .illustration .h5{
+        font-size: 12px !important;
+        padding: 10px!important;
+    }
+    .h1 {
+        font-size: 35px!important;
+        margin: 10px 0;
+    }
+    .coreintro{
+        font-size: 15px!important;
+        font-weight: 400!important;
+    }
+    .coreintro1{
+        margin-top: 50px !important;
+        margin-bottom: 20px !important;
+    }
+    .h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .relia{
+        margin-top: 10px !important;
+    }
+    .relia1{
+        margin-top: 50px !important;
+    }
+    .flexi{
+        margin-top: 0px !important;
+    }
+    .flexi1{
+        margin-bottom: 70px !important;
+    }
+    .h6 {
+        font-size: 15px !important;
+    }
+    .partn1{
+        padding: 2px !important;
+    }
+    .partn {
+        padding: 2px !important;
+        font-size: 18px !important;
+        font-weight: 300 !important;
+
+    }
+    .partn{
+        margin-top: 2px !important;
+    }
+    .b2{
+        margin-top: 10px !important;
+    }
+}
